@@ -5,7 +5,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+	http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -16,9 +16,10 @@ limitations under the License.
 package cmd
 
 import (
-	"github.com/codeedu/imersao/codepix-go/application/grpc"
-	"github.com/codeedu/imersao/codepix-go/infrastructure/db"
 	"os"
+
+	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/grpc"
+	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/infrastructure/db"
 
 	"github.com/spf13/cobra"
 )
@@ -37,7 +38,7 @@ var grpcCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(grpcCmd)
-	grpcCmd.Flags().IntVarP(&portNumber, "port", "p",50051, "gRPC Server port")
+	grpcCmd.Flags().IntVarP(&portNumber, "port", "p", 50051, "gRPC Server port")
 
 	// Here you will define your flags and configuration settings.
 

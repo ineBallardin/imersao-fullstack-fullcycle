@@ -2,8 +2,9 @@ package usecase
 
 import (
 	"errors"
-	"github.com/codeedu/imersao/codepix-go/domain/model"
 	"log"
+
+	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/domain/model"
 )
 
 type TransactionUseCase struct {

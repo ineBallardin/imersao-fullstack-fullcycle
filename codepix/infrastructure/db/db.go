@@ -1,11 +1,12 @@
 package db
 
 import (
-	"github.com/codeedu/imersao/codepix-go/domain/model"
 	"log"
 	"os"
 	"path/filepath"
 	"runtime"
+
+	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/domain/model"
 
 	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"
