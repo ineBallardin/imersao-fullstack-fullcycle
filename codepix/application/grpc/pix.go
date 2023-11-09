@@ -3,8 +3,8 @@ package grpc
 import (
 	"context"
 
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/grpc/pb"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/usecase"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/grpc/pb"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/usecase"
 )
 
 type PixGrpcService struct {

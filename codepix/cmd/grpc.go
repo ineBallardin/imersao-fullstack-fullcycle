@@ -18,8 +18,8 @@ package cmd
 import (
 	"os"
 
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/grpc"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/infrastructure/db"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/grpc"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/infrastructure/db"
 
 	"github.com/spf13/cobra"
 )

@@ -19,9 +19,9 @@ import (
 	"os"
 
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/grpc"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/kafka"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/infrastructure/db"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/grpc"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/kafka"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/infrastructure/db"
 	"github.com/spf13/cobra"
 )
 

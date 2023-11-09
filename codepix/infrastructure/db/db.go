@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/domain/model"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/domain/model"
 
 	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"

@@ -18,9 +18,9 @@ package cmd
 import (
 	"os"
 
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/domain/model"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/infrastructure/db"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/infrastructure/repository"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/domain/model"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/infrastructure/db"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/infrastructure/repository"
 	"github.com/spf13/cobra"
 )
 

@@ -5,10 +5,10 @@ import (
 	"os"
 
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/factory"
-	appmodel "github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/model"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/usecase"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/domain/model"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/factory"
+	appmodel "github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/model"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/usecase"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/domain/model"
 	"github.com/jinzhu/gorm"
 )
 

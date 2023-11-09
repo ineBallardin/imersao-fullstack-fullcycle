@@ -5,9 +5,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/grpc/pb"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/application/usecase"
-	"github.com/ineBallardin/imersao-fullstack-fullcycle/codepix/infrastructure/repository"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/grpc/pb"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/application/usecase"
+	"github.com/ineBallardin/imersaofullstackfullcycle/codepix/infrastructure/repository"
 	"github.com/jinzhu/gorm"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
